@@ -1,0 +1,47 @@
+{
+  "name": "redux-middleware-react-native-appstate",
+  "version": "0.0.1",
+  "description": "Glue AppState from react-native to Redux.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "make test",
+    "prepublish": "make build lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelcontento/redux-middleware-react-native-appstate.git"
+  },
+  "homepage": "https://github.com/michaelcontento/redux-middleware-react-native-appstate",
+  "keywords": [
+    "redux",
+    "redux-middleware",
+    "middleware",
+    "react-native",
+    "fsa",
+    "flux-standard-action",
+    "flux"
+  ],
+  "author": {
+    "name": "Michael Contento",
+    "email": "michaelcontento@gmail.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^5.8.21",
+    "babel-core": "^5.8.22",
+    "babel-eslint": "^4.0.5",
+    "eslint": "^1.1.0",
+    "eslint-config-airbnb": "0.0.7"
+  },
+  "dependencies": {
+    "react-native": ">=0.8.0 || 0.9.0-rc",
+    "redux-actions": "^0.7.0",
+    "redux-middleware-oneshot": "0.0.x"
+  },
+  "peerDependencies": {
+    "redux": "^1.0.0 || 1.0.0-alpha || 1.0.0-rc"
+  },
+  "bugs": {
+    "url": "https://github.com/michaelcontento/redux-middleware-react-native-appstate/issues"
+  }
+}
