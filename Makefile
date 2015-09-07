@@ -2,7 +2,7 @@ BIN=./node_modules/.bin
 
 install: ./node_modules/
 
-./node_modules:
+./node_modules: package.json
 	npm install --loglevel=error
 
 build: install clean
