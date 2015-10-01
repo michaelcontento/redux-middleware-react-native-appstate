@@ -39,7 +39,7 @@
     "redux-middleware-oneshot": "0.1.0"
   },
   "peerDependencies": {
-    "redux": "^2.0.0 || ^1.0.0 || 1.0.0-alpha || 1.0.0-rc"
+    "redux": "3.0.2"
   },
   "bugs": {
     "url": "https://github.com/michaelcontento/redux-middleware-react-native-appstate/issues"
