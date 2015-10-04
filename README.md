@@ -5,6 +5,7 @@
 [![npm version](https://img.shields.io/npm/v/redux-middleware-react-native-appstate.svg?style=flat-square)](https://www.npmjs.com/package/redux-middleware-react-native-appstate)
 [![npm downloads](https://img.shields.io/npm/dm/redux-middleware-react-native-appstate.svg?style=flat-square)](https://www.npmjs.com/package/redux-middleware-react-native-appstate)
 [![Code Climate](https://codeclimate.com/github/michaelcontento/redux-middleware-react-native-appstate/badges/gpa.svg)](https://codeclimate.com/github/michaelcontento/redux-middleware-react-native-appstate)
+[![build](https://travis-ci.org/michaelcontento/redux-middleware-react-native-appstate.svg)](https://travis-ci.org/michaelcontento/redux-middleware-react-native-appstate)
 
 Glue [AppState][] from [react-native][] to [Redux][].
 
