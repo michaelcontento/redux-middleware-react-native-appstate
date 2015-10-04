@@ -1,6 +1,6 @@
 {
   "name": "redux-middleware-react-native-appstate",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Glue AppState from react-native to Redux.",
   "main": "lib/index.js",
   "scripts": {
