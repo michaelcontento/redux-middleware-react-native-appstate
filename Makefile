@@ -1,19 +1,50 @@
-BIN=./node_modules/.bin
+BIN := ./node_modules/.bin
+NPM := npm --loglevel=error
 
-install: ./node_modules/
+#
+# INSTALL
+#
 
-./node_modules: package.json
-	npm install --loglevel=error
+install: node_modules/
 
-build: install clean
+node_modules/: package.json
+	$(NPM) --ignore-scripts install
+	touch node_modules/
+
+#
+# BUILD
+#
+
+build: clean install
 	$(BIN)/babel ./src --out-dir ./lib
+
+#
+# CLEAN
+#
 
 clean:
 	rm -rf ./lib
 
+mrproper: clean
+	rm -rf ./node_modules
+
+#
+# TEST
+#
+
 lint: install
 	$(BIN)/eslint src
 
-.PHONY: install build clean lint
+ci: lint build
+
+#
+# MAKEFILE
+#
+
+.PHONY: \
+	install \
+	build \
+	clean mrproper \
+	lint ci
 
 .SILENT:
