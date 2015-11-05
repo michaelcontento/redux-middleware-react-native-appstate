@@ -35,7 +35,7 @@
     "eslint-plugin-react": "^3.5.1"
   },
   "dependencies": {
-    "react-native": "^0.13.2",
+    "react-native": "^0.14.0",
     "redux-actions": "^0.8.0",
     "redux-middleware-oneshot": "^0.1.1"
   },
