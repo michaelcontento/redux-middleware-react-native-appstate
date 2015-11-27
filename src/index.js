@@ -9,4 +9,3 @@ export const middleware = createOneShotMiddleware((dispatch) => {
     handle(AppStateIOS.currentState);
     AppStateIOS.addEventListener('change', handle);
 });
-
