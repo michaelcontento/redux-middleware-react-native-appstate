@@ -9,6 +9,13 @@
 
 Glue [AppState][] from [react-native][] to [Redux][].
 
+# Deprecated - No longer maintained
+
+My focus has left the node / react ecosystem and this module is no
+longer maintained. 
+
+Thank you for your patience and using this module in the first place!
+
 ## Installation
 
     npm install --save redux-middleware-react-native-appstate
